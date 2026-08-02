@@ -6,6 +6,7 @@ import './index.css'
 import App from './App.jsx'
 
 const CLERK_PUBLISHABLE_KEY=import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
+const BASE_URL=import.meta.env.VITE_BASE_URL;
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
